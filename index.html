@@ -26,6 +26,12 @@
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link href="assets/css/theme.min.css" rel="stylesheet" />
+    <style>
+        #newInvestButton[disabled] {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+    </style>
 </head>
 
 <body>
@@ -37,7 +43,7 @@
             data-navbar-on-scroll="data-navbar-on-scroll">
             <div class="container"><a class="navbar-brand" href="index.html"><img
                         class="d-inline-block align-top img-fluid" src="assets/img/gallery/logo-frypen.png" alt=""
-                        width="50" /><span class="text-theme font-monospace fs-4 ps-2">Frypen</span></a><button
+                        width="50" /><span class="text-theme font-monospace fs-4 ps-2">FryPen</span></a><button
                     class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
@@ -82,7 +88,6 @@
                             FryPen menyediakan pertanian, peternak, rimbawan swasta, dan
                             pertanian dengan aplikasi layanan mandiri online dan materi pendidikan.
                         </p>
-                        <a class="btn btn-lg btn-success" href="#header" role="button">Investasi Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -291,13 +296,14 @@
                                         <div class="card h-100 shadow">
                                             <div class="card-body my-3">
                                                 <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                    <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-1.png" width="50" alt="" />
+                                                    <img class="img-fluid me-3 me-md-2 me-lg-3"
+                                                        src="assets/img/gallery/user-1.png" width="50" alt="" />
                                                     <div class="flex-1 align-items-center pt-2">
                                                         <h5 class="mb-0 fw-bold text-success">Fernando Soler</h5>
-                                                        <p class="fw-normal text-black">Insinyur Telekomunikasi</p>
+                                                        <p class="fw-normal text-black">Pengusaha Teknologi</p>
                                                     </div>
                                                 </div>
-                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Platform ini sangat membantu saya dalam memahami investasi agribisnis. Saya merasa lebih terhubung dengan para petani dan proyek mereka."</p>
+                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Investasi saya di sini sangat menguntungkan. Selain keuntungan finansial, saya juga merasakan dampak positif terhadap komunitas pertanian."</p>
                                             </div>
                                         </div>
                                     </div>
@@ -305,13 +311,14 @@
                                         <div class="card h-100 shadow">
                                             <div class="card-body my-3">
                                                 <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                    <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-2.png" width="50" alt="" />
+                                                    <img class="img-fluid me-3 me-md-2 me-lg-3"
+                                                        src="assets/img/gallery/user-2.png" width="50" alt="" />
                                                     <div class="flex-1 align-items-center pt-2">
                                                         <h5 class="mb-0 fw-bold text-success">Ilone Pickford</h5>
-                                                        <p class="fw-normal text-black">Kepala Grup Agrogofund</p>
+                                                        <p class="fw-normal text-black">Investor Senior</p>
                                                     </div>
                                                 </div>
-                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Investasi saya di platform ini telah memberikan hasil yang luar biasa. Saya merasa lebih dekat dengan para petani dan proyek mereka."</p>
+                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Menggunakan platform ini sangat memudahkan saya dalam memilih proyek investasi. Sangat transparan dan hasilnya memuaskan."</p>
                                             </div>
                                         </div>
                                     </div>
@@ -319,13 +326,14 @@
                                         <div class="card h-100 shadow">
                                             <div class="card-body my-3">
                                                 <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                    <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-3.png" width="50" alt="" />
+                                                    <img class="img-fluid me-3 me-md-2 me-lg-3"
+                                                        src="assets/img/gallery/user-3.png" width="50" alt="" />
                                                     <div class="flex-1 align-items-center pt-2">
                                                         <h5 class="mb-0 fw-bold text-success">Ed O’Brien</h5>
-                                                        <p class="fw-normal text-black">Herbalist</p>
+                                                        <p class="fw-normal text-black">Ahli Tanaman</p>
                                                     </div>
                                                 </div>
-                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Saya sangat senang dengan platform ini. Investasi saya telah memberikan hasil yang luar biasa dan saya merasa lebih dekat dengan para petani."</p>
+                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Saya terkesan dengan platform ini, baik dari segi layanan maupun hasil yang didapat. Terasa sangat dekat dengan petani dan proyek mereka."</p>
                                             </div>
                                         </div>
                                     </div>
@@ -337,27 +345,14 @@
                                         <div class="card h-100 shadow">
                                             <div class="card-body my-3">
                                                 <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-4.webp" width="50" alt="" />
+                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3"
+                                                        src="assets/img/gallery/user-4.webp" width="50" alt="" />
                                                     <div class="flex-1 align-items-center pt-2">
                                                         <h5 class="mb-0 fw-bold text-success">Carry Ana</h5>
-                                                        <p class="fw-normal text-black">Insinyur Telekomunikasi</p>
+                                                        <p class="fw-normal text-black">Konsultan Agribisnis</p>
                                                     </div>
                                                 </div>
-                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Saya sangat senang dengan platform ini. Investasi saya telah memberikan hasil yang luar biasa dan saya merasa lebih dekat dengan para petani."</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-5 mb-md-0">
-                                        <div class="card h-100 shadow">
-                                            <div class="card-body my-3">
-                                                <div class="align-items-xl-center rounded-circle d-block d-xl-flex px-3">
-                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-5.webp" width="50" alt="" />
-                                                    <div class="flex-1 align-items-center pt-2">
-                                                        <h5 class="mb-0 fw-bold text-success">Stanly Drinkwater</h5>
-                                                        <p class="fw-normal text-black">Kepala Grup Agrogofund</p>
-                                                    </div>
-                                                </div>
-                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Platform ini sangat membantu saya dalam memahami investasi agribisnis. Saya merasa lebih terhubung dengan para petani dan proyek mereka."</p>
+                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Setelah bergabung, saya melihat bagaimana platform ini mampu menghubungkan investor dengan petani secara langsung. Pengalaman yang sangat baik!"</p>
                                             </div>
                                         </div>
                                     </div>
@@ -365,13 +360,29 @@
                                         <div class="card h-100 shadow">
                                             <div class="card-body my-3">
                                                 <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-6.webp" width="50" alt="" />
+                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3"
+                                                        src="assets/img/gallery/user-5.webp" width="50" alt="" />
                                                     <div class="flex-1 align-items-center pt-2">
-                                                        <h5 class="mb-0 fw-bold text-success">Josef Stravinsky</h5>
-                                                        <p class="fw-normal text-black">Herbalist</p>
+                                                        <h5 class="mb-0 fw-bold text-success">Stanly Drinkwater</h5>
+                                                        <p class="fw-normal text-black">Pengusaha Agrikultur</p>
                                                     </div>
                                                 </div>
-                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Saya sangat senang dengan platform ini. Investasi saya telah memberikan hasil yang luar biasa dan saya merasa lebih dekat dengan para petani."</p>
+                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Saya senang bisa berinvestasi langsung pada proyek pertanian. Platform ini memberikan kejelasan dan kontrol penuh atas investasi saya."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-5 mb-md-0">
+                                        <div class="card h-100 shadow">
+                                            <div class="card-body my-3">
+                                                <div class="align-items-xl-center d-block d-xl-flex px-3">
+                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3"
+                                                        src="assets/img/gallery/user-6.webp" width="50" alt="" />
+                                                    <div class="flex-1 align-items-center pt-2">
+                                                        <h5 class="mb-0 fw-bold text-success">Josef Stravinsky</h5>
+                                                        <p class="fw-normal text-black">Pengusaha Herbal</p>
+                                                    </div>
+                                                </div>
+                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Platform ini adalah tempat sempurna bagi orang-orang yang ingin menggabungkan keuntungan finansial dengan dampak sosial dalam investasi mereka."</p>
                                             </div>
                                         </div>
                                     </div>
@@ -383,13 +394,14 @@
                                         <div class="card h-100 shadow">
                                             <div class="card-body my-3">
                                                 <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-7.webp" width="50" alt="" />
+                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3"
+                                                        src="assets/img/gallery/user-7.webp" width="50" alt="" />
                                                     <div class="flex-1 align-items-center pt-2">
                                                         <h5 class="mb-0 fw-bold text-success">Igor Borvibson</h5>
-                                                        <p class="fw-normal text-black">Insinyur Telekomunikasi</p>
+                                                        <p class="fw-normal text-black">Pakar Teknologi Pertanian</p>
                                                     </div>
                                                 </div>
-                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Platform ini sangat membantu saya dalam memahami investasi agribisnis. Saya merasa lebih terhubung dengan para petani dan proyek mereka."</p>
+                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Saya sangat terbantu dengan platform ini. Investasi lebih terarah, dengan hasil yang jelas dan cepat."</p>
                                             </div>
                                         </div>
                                     </div>
@@ -397,13 +409,14 @@
                                         <div class="card h-100 shadow">
                                             <div class="card-body my-3">
                                                 <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-8.webp" width="50" alt="" />
+                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3"
+                                                        src="assets/img/gallery/user-8.webp" width="50" alt="" />
                                                     <div class="flex-1 align-items-center pt-2">
                                                         <h5 class="mb-0 fw-bold text-success">Katerina Karenin</h5>
-                                                        <p class="fw-normal text-black">Kepala Grup Agrogofund</p>
+                                                        <p class="fw-normal text-black">Investor Berpengalaman</p>
                                                     </div>
                                                 </div>
-                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Platform ini sangat membantu saya dalam memahami investasi agribisnis. Saya merasa lebih terhubung dengan para petani dan proyek mereka."</p>
+                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Platform ini membuat proses investasi menjadi lebih sederhana dan mudah dipahami. Saya merasa lebih terhubung dengan proyek yang saya dukung."</p>
                                             </div>
                                         </div>
                                     </div>
@@ -411,19 +424,21 @@
                                         <div class="card h-100 shadow">
                                             <div class="card-body my-3">
                                                 <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-9.webp" width="50" alt="" />
+                                                    <img class="img-fluid rounded-circle me-3 me-md-2 me-lg-3"
+                                                        src="assets/img/gallery/user-9.webp" width="50" alt="" />
                                                     <div class="flex-1 align-items-center pt-2">
-                                                        <h5 class="mb-0 fw-bold text-success">Michael Jenkins</h5>
-                                                        <p class="fw-normal text-black">Herbalist</p>
+                                                        <h5 class="mb-0 fw-bold text-success">Jason Gaunt</h5>
+                                                        <p class="fw-normal text-black">Ahli Lingkungan</p>
                                                     </div>
                                                 </div>
-                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Platform ini sangat membantu saya dalam memahami investasi agribisnis. Saya merasa lebih terhubung dengan para petani dan proyek mereka."</p>
+                                                <p class="mb-0 px-3 px-md-2 px-xxl-3">"Investasi yang saya lakukan memberikan dampak positif tidak hanya pada keuangan saya, tetapi juga pada lingkungan dan masyarakat di sekitar."</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="row px-3 px-sm-6 px-md-0 px-lg-5 px-xl-4">
                             <div class="col-12 position-relative"><a
                                     class="carousel-control-prev carousel-icon z-index-2" href="#carouselExampleDark"
@@ -469,7 +484,7 @@
                     <div class="col-6 col-sm-4 col-lg-auto mb-3">
                         <h6 class="mb-3 text-1000 fw-semi-bold">Anggota 1</h6>
                         <ul class="list-unstyled mb-md-4 mb-lg-0">
-                            <li class="mb-3"><a class="text-700 text-decoration-none" href="#!">Blitaryan ENdi Pratama</a></li>
+                            <li class="mb-3"><a class="text-700 text-decoration-none" href="#!">Blitaryan Endi Pratama</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-auto mb-3">
@@ -505,8 +520,16 @@
     <!-- ===============================================-->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            const investButton = document.getElementById('newInvestButton');
+            investButton.removeAttribute('disabled');
+            investButton.style.pointerEvents = 'auto';
+            investButton.style.opacity = '1';
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
             const investButton = document.getElementById('investButton');
-            const hasInvested = false;
+            let hasInvested = false;
 
             investButton.addEventListener('click', function(event) {
                 event.preventDefault();
